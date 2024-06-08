@@ -1,0 +1,55 @@
+#fullname {
+  display: flex;
+}
+
+#first-name-inp {
+  flex: 1;
+  width: 50%;
+  margin-right: 20px;
+}
+
+#last-name-inp {
+  width: 50%;
+}
+
+#have-account {
+  color: white;
+  margin-top: 10px;
+}
+
+#signup-button {
+  cursor: pointer;
+}
+
+#Authority {
+  color: white;
+  display: flex;
+  margin-top: 10px;
+}
+
+#Authority label {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}
+
+#is_admin {
+  margin-left: 7vh;
+}
+
+#is_guest {
+  margin-left: 20px;
+}
+
+@media (max-width: 700px) {
+  #Authority {
+    font-size: 10px;
+  }
+  #Authority label {
+    font-size: 15px;
+  }
+  #is_admin {
+    margin-left: 5vh;
+  }
+}
